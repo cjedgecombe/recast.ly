@@ -19,7 +19,6 @@ var App = () => {
       <div className="row">
         <div className="col-md-7">
           {/* we can add a useState here for current video */}
-          {/* <VideoPlayer video={exampleVideoData[nextVideo(currentVideo + 1)]}/> */}
           <VideoPlayer video={currentVideo} />
         </div>
         <div className="col-md-5">
